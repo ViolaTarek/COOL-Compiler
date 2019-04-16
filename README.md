@@ -5,8 +5,8 @@ cool compiler using antlr
 *Requirements*
 
 - Java installed 
-- Antlr installed 
-- we used Intelij 
+- Antlr installed from : https://www.antlr.org/
+- we used Intelij IDE (Editor)
 ----------------------------------------
 *Phase 1 : cool Lexer *
 
