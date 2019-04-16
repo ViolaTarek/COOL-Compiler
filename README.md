@@ -2,13 +2,13 @@
 cool compiler using antlr 
 
 ----------------------------------------
-##**Requirements**
+## **Requirements**
 
 - Java installed 
 - Antlr installed from : https://www.antlr.org/
 - we used Intelij IDE (Editor)
 ----------------------------------------
-##**Phase 1 : cool Lexer**
+## **Phase 1 : cool Lexer**
 
 - We first created the Token file which contains all the tokens we want to compile and its possible values
 - mush have installed Antlr on the ide and import antlr runtime jar 
