@@ -4,9 +4,9 @@ cool compiler using antlr
 ----------------------------------------
 *Requirements*
 
--Java installed \n
--Antlr installed \n
-- we used Intelij \n
+- Java installed 
+- Antlr installed 
+- we used Intelij 
 ----------------------------------------
 *Phase 1 : cool Lexer *
 
