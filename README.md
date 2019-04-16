@@ -1,11 +1,15 @@
 # COOL-Compiler
 cool compiler using antlr 
+
 ----------------------------------------
 *Requirements*
--Java installed 
--Antlr installed 
-- we used Intelij 
+
+-Java installed \n
+-Antlr installed \n
+- we used Intelij \n
+----------------------------------------
 *Phase 1 : cool Lexer *
+
 - We first created the Token file which contains all the tokens we want to compile and its possible values
 - mush have installed Antlr on the ide and import antlr runtime jar 
 - double click and generate Antlr Recognizer 
