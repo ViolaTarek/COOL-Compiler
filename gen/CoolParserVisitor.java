@@ -17,13 +17,6 @@ public interface CoolParserVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitClasses(CoolParser.ClassesContext ctx);
 	/**
-	 * Visit a parse tree produced by the {@code eof}
-	 * labeled alternative in {@link CoolParser#programBlocks}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitEof(CoolParser.EofContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link CoolParser#classDefine}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -49,13 +42,6 @@ public interface CoolParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitFormal(CoolParser.FormalContext ctx);
-	/**
-	 * Visit a parse tree produced by the {@code add}
-	 * labeled alternative in {@link CoolParser#expression}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitAdd(CoolParser.AddContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code letIn}
 	 * labeled alternative in {@link CoolParser#expression}.
@@ -106,19 +92,19 @@ public interface CoolParserVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitIsvoid(CoolParser.IsvoidContext ctx);
 	/**
-	 * Visit a parse tree produced by the {@code assignment}
-	 * labeled alternative in {@link CoolParser#expression}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitAssignment(CoolParser.AssignmentContext ctx);
-	/**
 	 * Visit a parse tree produced by the {@code while}
 	 * labeled alternative in {@link CoolParser#expression}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitWhile(CoolParser.WhileContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code ASSIGN}
+	 * labeled alternative in {@link CoolParser#expression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitASSIGN(CoolParser.ASSIGNContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code int}
 	 * labeled alternative in {@link CoolParser#expression}.
@@ -210,6 +196,13 @@ public interface CoolParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitOwnMethodCall(CoolParser.OwnMethodCallContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code PLUS}
+	 * labeled alternative in {@link CoolParser#expression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPLUS(CoolParser.PLUSContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code methodCall}
 	 * labeled alternative in {@link CoolParser#expression}.

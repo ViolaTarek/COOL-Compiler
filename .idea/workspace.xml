@@ -3,6 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="d22f6f74-b96e-46c9-9d3c-90bb6de96841" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Good.cl" beforeDir="false" afterPath="$PROJECT_DIR$/Good.cl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParser.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParser.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParserBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParserBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParserBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParserBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParserListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/CoolParserVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/CoolParserVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lexer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$AddContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$AssignmentContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$BlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$BlockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$BoolNotContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$BoolNotContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$CaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$CaseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ClassDefineContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ClassDefineContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ClassesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ClassesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$DivisionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$DivisionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$EofContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$EqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$EqualContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ExpressionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$FeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$FeatureContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$FormalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$FormalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IdContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IdContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IfContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IfContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IntContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IntContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IsvoidContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$IsvoidContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LessEqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LessEqualContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LessThanContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LessThanContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LetInContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$LetInContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MethodCallContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MethodContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MethodContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MinusContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MinusContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MultiplyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$MultiplyContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$NegativeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$NegativeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$NewContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$NewContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$OwnMethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$OwnMethodCallContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ParenthesesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ParenthesesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ProgramBlocksContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$ProgramBlocksContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$PropertyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$PropertyContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$StringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$StringContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$TrueOrFlaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$TrueOrFlaseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser$WhileContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser$WhileContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParser.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParserBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParserBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParserBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParserBaseVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParserListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/CoolParserVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/CoolParserVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/LexerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/LexerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/ParserTest$ParserError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/ParserTest$ParserError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lexer/ParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lexer/ParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoolLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoolParser.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LexerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +81,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoolLexer.g4">
+        <entry file="file://$PROJECT_DIR$/src/CoolParser.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="17">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LexerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="112" lean-forward="true" selection-end-line="135" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="92" column="38" lean-forward="true" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            <state relative-caret-position="105">
+              <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#escapeSpecialCharacters#0;class#ParserTest#0" />
@@ -39,28 +115,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parser.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Good.cl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoolParser.g4">
+        <entry file="file://$PROJECT_DIR$/gen/CoolLexer.tokens">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lexer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="23">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -81,7 +157,19 @@
       <find>AST</find>
       <find>ast</find>
       <find>str</find>
+      <find>ASSIGNMENT</find>
+      <find>case_arrow</find>
+      <find>ADD</find>
+      <find>MINUS</find>
+      <find>eof</find>
+      <find>antlrinputstream</find>
+      <find>parsetree</find>
+      <find>output</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ASSIGN</replace>
+      <replace>PLUS</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,16 +184,16 @@
         <option value="$PROJECT_DIR$/src/CoolParser.java" />
         <option value="$PROJECT_DIR$/isprime.cl" />
         <option value="$PROJECT_DIR$/gen/CoolLexer.tokens" />
-        <option value="$PROJECT_DIR$/Good.cl" />
-        <option value="$PROJECT_DIR$/src/CoolLexer.g4" />
         <option value="$PROJECT_DIR$/lexer.txt" />
-        <option value="$PROJECT_DIR$/src/LexerTest.java" />
         <option value="$PROJECT_DIR$/gen/CoolParser.java" />
         <option value="$PROJECT_DIR$/gen/CoolParserBaseVisitor.java" />
         <option value="$PROJECT_DIR$/gen/CoolParserVisitor.java" />
         <option value="$PROJECT_DIR$/gen/CoolParserListener.java" />
         <option value="$PROJECT_DIR$/gen/CoolParserBaseListener.java" />
+        <option value="$PROJECT_DIR$/src/CoolLexer.g4" />
+        <option value="$PROJECT_DIR$/Good.cl" />
         <option value="$PROJECT_DIR$/src/CoolParser.g4" />
+        <option value="$PROJECT_DIR$/src/LexerTest.java" />
         <option value="$PROJECT_DIR$/src/ParserTest.java" />
       </list>
     </option>
@@ -116,7 +204,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -175,7 +263,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antlr-4.7.2-complete.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Good.cl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -254,7 +342,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20242915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21376519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48502025" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48502025" visible="true" weight="0.3428064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48663968" weight="0.3285968" />
       <window_info anchor="bottom" id="Tool Output" order="11" sideWeight="0.4874494" weight="0.3285968" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="12" sideWeight="0.49959514" weight="0.44049734" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="12" sideWeight="0.49959514" weight="0.42628774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -281,8 +369,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32955465" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24939272" />
-      <window_info anchor="right" id="Module Dependencies" order="8" weight="0.32955465" />
+      <window_info anchor="right" id="Module Dependencies" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24939272" />
     </layout>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -298,16 +386,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoolLexer.java" />
-    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.interp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/Token.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Lexer/CoolLexer.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-701" />
@@ -361,50 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/CoolParser.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LexerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-          <folding>
-            <element signature="e#3404#3405#0" expanded="true" />
-            <element signature="e#3428#3429#0" expanded="true" />
-            <element signature="e#3478#3479#0" expanded="true" />
-            <element signature="e#3502#3503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Good.cl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lexer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/CommonTokenStream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -450,9 +484,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.interp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1451">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output1.cl-lex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.cl-cst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="261">
           <caret line="336" column="22" selection-start-line="336" selection-start-column="22" selection-end-line="336" selection-end-column="22" />
           <folding>
             <element signature="method#escapeSpecialCharacters#0;class#AST#0" />
@@ -460,34 +510,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.tokens">
+    <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/CoolParser.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoolLexer.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.cl-lex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/tree/ParseTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoolParser.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/Token.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lexer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Good.cl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/CoolLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="92" column="38" lean-forward="true" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#escapeSpecialCharacters#0;class#ParserTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LexerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="112" lean-forward="true" selection-end-line="135" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

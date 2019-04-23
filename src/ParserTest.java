@@ -1,10 +1,9 @@
+import java.io.*;
+import java.util.*;
 import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Arrays;
-
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
-
+import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.CommonToken;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.BaseErrorListener;
@@ -13,22 +12,24 @@ import org.antlr.v4.runtime.RecognitionException;
 import org.antlr.v4.runtime.tree.*;
 import java.nio.file.Paths;
 import org.antlr.v4.gui.*;
+import javax.swing.*;
 
 
 
 
 public class ParserTest {
-	static String[] TOKENS = {"SEMICOLON", "DARROW", "INT_CONST", "SELF", "SELF_TYPE", "TYPEID",
-			"OBJECTID", "BOOL_CONST", "LPAREN", "RPAREN", "COLON", "ATSYM", "COMMA",
-			"PLUS", "MINUS", "STAR", "SLASH", "TILDE", "LT", "EQUALS", "LBRACE",
-			"RBRACE", "DOT", "LE", "ASSIGN", "CLASS", "ELSE", "FI", "IF", "IN", "INHERITS",
-			"LET", "LOOP", "POOL", "THEN", "WHILE", "CASE", "ESAC", "OF", "NEW",
-			"ISVOID", "NOT", "STRING", "WS", "ERROR", "STR_CONST"};
+	static String[] TOKENS = {"SEMICOLON", "DARROW", "INT_CONST", "SELF", "SELF_TYPE", "BOOL_CONST",
+			"LPAREN", "RPAREN", "COLON", "ATSYM", "COMMA", "PLUS", "MINUS", "STAR",
+			"SLASH", "TILDE", "LT", "EQUALS", "LBRACE", "RBRACE", "DOT", "LE", "ASSIGN",
+			"CLASS", "ELSE", "FI", "IF", "IN", "INHERITS", "LET", "LOOP", "POOL",
+			"THEN", "WHILE", "CASE", "ESAC", "OF", "NEW", "ISVOID", "NOT", "TYPEID",
+			"OBJECTID", "STRING", "WS", "ERROR"};
 
 	static int VALUED_INDEX_LIMIT = 1;
 	static int NAMED_TOKEN_INDEX = 46;
 	static int parser_error_flag = 0;
 
+	public static BufferedWriter bufferedWriter;
 	static String escapeSpecialCharacters(String text) {
 		return
 			text
@@ -64,14 +65,10 @@ public class ParserTest {
 		int lexer_flag = 0;
 		for(Token t : tokens.getTokens()){
 			if ( t.getType() == 45 ){
-				if(t.getText()=="#"){
-					escapeSpecialCharacters(t.getText());
-					lexer_flag=0;
-				}
-				else {
+
 				lexer_flag = 1;
 				System.err.println("Lexical error at "+t.getLine()+": "+escapeSpecialCharacters(t.getText()));	}
-			}
+
 		}
 		if (lexer_flag == 1)
 			return;
@@ -85,13 +82,32 @@ public class ParserTest {
 		CoolParser.ProgramBlocksContext prog = null;
 		try{
 			prog = parser.programBlocks();
+
 		}catch(Exception e){
 			e.printStackTrace();
 		}
 		if(parser_error_flag == 0) {
+
 			ParseTree tree = prog;
-			TreeViewer viewr = new TreeViewer(Arrays.asList(parser.getRuleNames()), tree);
-			viewr.open();
+
+			TreeViewer viewer = new TreeViewer(Arrays.asList(parser.getRuleNames()), tree);
+			//viewer.open();
+			String output = " ";
+				for (int i =0 ;i<tree.getChildCount();i++){
+					output += tree.getChild(i).toStringTree() + "\n";
+
+			}
+//			System.out.println(output);
+
+			try (BufferedWriter out = new BufferedWriter(new FileWriter("parser.txt"))) {
+				out.write(output);
+				out.newLine();
+				System.out.println("parser.txt has generated");
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+
 		}
 		else
 			System.err.println("Compilation halted due to lex and parse errors");
@@ -107,7 +123,7 @@ public class ParserTest {
 		}
 
 		for(String filename : args)
-			printAST(filename);
+		printAST(filename);
 	}
 
 	public static class ParserError extends BaseErrorListener {

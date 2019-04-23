@@ -2,18 +2,6 @@ lexer grammar CoolLexer;
 //
 SEMICOLON   : ';' ;
 DARROW      : '=>' ;
-INT_CONST	: [0-9]+ ;											// integer constants
-
-
-
-SELF		: 'self' ;
-SELF_TYPE	: 'SELF_TYPE' ;
-
-TYPEID		: [A-Z] [a-zA-Z0-9_]* ;
-OBJECTID	: [a-z] [0-9_a-zA-z]* ;
-
-BOOL_CONST	: 't' ('r'|'R') ('u'|'U') ('e'|'E')
-			| 'f' ('a'|'A') ('l'|'L') ('s'|'S') ('e'|'E') ;
 
 LPAREN		: '(' ;
 RPAREN		: ')' ;
@@ -34,6 +22,11 @@ DOT			: '.' ;
 LE			: '<=';
 ASSIGN		: '<-';
 
+
+SELF		: 'self' ;
+SELF_TYPE	: 'SELF_TYPE' ;
+
+
 CLASS		: ('c'|'C') ('l'|'L') ('a'|'A') ('s'|'S') ('s'|'S') ;
 ELSE		: ('e'|'E') ('l'|'L') ('s'|'S') ('e'|'E') ;
 FI			: ('f'|'F') ('i'|'I') ;
@@ -51,6 +44,16 @@ OF			: ('o'|'O') ('f'|'F') ;
 NEW			: ('n'|'N') ('e'|'E') ('w'|'W') ;
 ISVOID		: ('i'|'I') ('s'|'S') ('v'|'V') ('o'|'O') ('i'|'I') ('d'|'D') ;
 NOT			: ('n'|'N') ('o'|'O') ('t'|'T') ;
+
+BOOL_CONST	: 't' ('r'|'R') ('u'|'U') ('e'|'E')
+			| 'f' ('a'|'A') ('l'|'L') ('s'|'S') ('e'|'E') ;
+
+
+INT_CONST	: [0-9]+ ;											// integer constants
+
+TYPEID		: [A-Z] [a-zA-Z0-9_]* | ;
+OBJECTID	: [a-z] [0-9_a-zA-z]* ;
+
 STRING      : '"'[a-zA-Z0-9! \t\r\n,)(]*'"';
 WS			: [ \n\t\r]+ -> skip ;	// skip spaces, tabs, newlines
 

@@ -1,9 +1,7 @@
 parser grammar CoolParser;
 
-
 programBlocks
    : classDefine SEMICOLON programBlocks # classes
-   | EOF # eof
    ;
 
 classDefine
@@ -12,7 +10,7 @@ classDefine
 
 feature
    : OBJECTID LPAREN (formal (COMMA formal)*)* RPAREN COLON TYPEID LBRACE expression RBRACE # method
-   | OBJECTID COLON TYPEID (ASSIGNMENT expression)? # property
+   | OBJECTID COLON TYPEID (ASSIGN expression)? # property
    ;
 
 formal
@@ -26,23 +24,24 @@ expression
    | IF expression THEN expression ELSE expression FI # if
    | WHILE expression LOOP expression POOL # while
    | LBRACE (expression SEMICOLON) + RBRACE # block
-   | LET OBJECTID COLON TYPEID (ASSIGNMENT expression)? (COMMA OBJECTID COLON TYPEID (ASSIGNMENT expression)?)* IN expression # letIn
-   | CASE expression OF (OBJECTID COLON TYPEID CASE_ARROW expression SEMICOLON) + ESAC # case
+   | LET OBJECTID COLON TYPEID (ASSIGN expression)? (COMMA OBJECTID COLON TYPEID (ASSIGN expression)?)* IN expression # letIn
+   | CASE expression OF (OBJECTID COLON TYPEID DARROW expression SEMICOLON) + ESAC # case
+   | OBJECTID COLON TYPEID DARROW(expression)SEMICOLON #ASSIGN
    | NEW TYPEID # new
+   | INT_CONST # int
    | MINUS expression # negative
    | ISVOID expression # isvoid
-   | expression MULTIPLY expression # multiply
-   | expression DIVISION expression # division
-   | expression ADD expression # add
+   | expression STAR expression # multiply
+   | expression SLASH expression # division
+   | expression PLUS expression # PLUS
    | expression MINUS expression # minus
-   | expression LESS_THAN expression # lessThan
-   | expression LESS_EQUAL expression # lessEqual
-   | expression EQUAL expression # equal
+   | expression LT expression # lessThan
+   | expression LE expression # lessEqual
+   | expression EQUALS expression # equal
    | NOT expression # boolNot
    | LPAREN expression RPAREN # parentheses
    | OBJECTID # id
-   | INT # int
    | STRING # string
    | BOOL_CONST # TrueOrFlase
-   | OBJECTID ASSIGNMENT expression # assignment
+   | OBJECTID ASSIGN expression # ASSIGN
    ;

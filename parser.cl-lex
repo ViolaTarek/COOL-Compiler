@@ -1,0 +1,4 @@
+ ([10] class Main { str : STRING <- "The big brown fox\n\t\t\tjumped over the fence") 
+; 
+([12] ([10 12] x : INT <- 502) ; ([12 12] ([10 12 12] main ( ) : Object { { out_string ( "Yay! This is the newest shites" )) ; ([12 12 12] ([10 12 12 12] } }) ; ([12 12 12 12] ([10 12 12 12 12] }) ; ([12 12 12 12 12] [10 12 12 12 12 12]))))) 
+

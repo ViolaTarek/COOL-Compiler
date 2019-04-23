@@ -1,4 +1,4 @@
-#1 OBJECTID "class"
+#1 CLASS "class"
 #1 TYPEID "Main"
 #1 LBRACE
 #2 OBJECTID "str"
@@ -9,7 +9,7 @@
 #3 SEMICOLON
 #4 OBJECTID "x"
 #4 COLON
-#4 OBJECTID "int"
+#4 TYPEID "INT"
 #4 ASSIGN
 #4 INT_CONST "502"
 #4 SEMICOLON

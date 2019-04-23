@@ -13,12 +13,12 @@ import static java.lang.System.out;
 public class LexerTest {
 
 	static String[] TOKENS = {
-			"SEMICOLON", "DARROW", "INT_CONST", "SELF", "SELF_TYPE", "TYPEID", "OBJECTID",
-			"BOOL_CONST", "LPAREN", "RPAREN", "COLON", "ATSYM", "COMMA", "PLUS",
-			"MINUS", "STAR", "SLASH", "TILDE", "LT", "EQUALS", "LBRACE", "RBRACE",
-			"DOT", "LE", "ASSIGN", "CLASS", "ELSE", "FI", "IF", "IN", "INHERITS",
-			"LET", "LOOP", "POOL", "THEN", "WHILE", "CASE", "ESAC", "OF", "NEW",
-			"ISVOID", "NOT", "STRING", "WS", "ERROR"
+			"SEMICOLON", "DARROW", "LPAREN", "RPAREN", "COLON", "ATSYM", "COMMA",
+			"PLUS", "MINUS", "STAR", "SLASH", "TILDE", "LT", "EQUALS", "LBRACE",
+			"RBRACE", "DOT", "LE", "ASSIGN", "SELF", "SELF_TYPE", "CLASS", "ELSE",
+			"FI", "IF", "IN", "INHERITS", "LET", "LOOP", "POOL", "THEN", "WHILE",
+			"CASE", "ESAC", "OF", "NEW", "ISVOID", "NOT", "BOOL_CONST", "INT_CONST",
+			"TYPEID", "OBJECTID", "STRING", "WS", "ERROR"
 	};
 
 
