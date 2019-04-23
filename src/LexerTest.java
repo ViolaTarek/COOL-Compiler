@@ -86,6 +86,7 @@ public class LexerTest {
 		final int TYPE_ID_INDEX = Arrays.asList(TOKENS).indexOf("TYPEID");
 		final int OBJECT_ID_INDEX = Arrays.asList(TOKENS).indexOf("OBJECTID");
 		final int ERROR_INDEX = Arrays.asList(TOKENS).indexOf("ERROR");
+		final int CLASS_INDEX= Arrays.asList(TOKENS).indexOf("CLASS");
 
 
 		//Print tokens in file stream
@@ -112,6 +113,10 @@ public class LexerTest {
 
 				}
 				if (typeid - 1 == INT_CONST_INDEX || typeid - 1 == TYPE_ID_INDEX || typeid - 1 == OBJECT_ID_INDEX || typeid - 1 == STR_CONST_INDEX) {
+					output += " \"" + t.getText() + "\"";
+
+				}
+				if(typeid-1 == CLASS_INDEX){
 					output += " \"" + t.getText() + "\"";
 
 				}

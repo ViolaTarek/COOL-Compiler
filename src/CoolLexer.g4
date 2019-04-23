@@ -17,6 +17,7 @@ BOOL_CONST	: 't' ('r'|'R') ('u'|'U') ('e'|'E')
 
 LPAREN		: '(' ;
 RPAREN		: ')' ;
+
 COLON		: ':' ;
 ATSYM		: '@' ;
 COMMA		: ',' ;
@@ -32,7 +33,6 @@ RBRACE		: '}' ;
 DOT			: '.' ;
 LE			: '<=';
 ASSIGN		: '<-';
-
 
 CLASS		: ('c'|'C') ('l'|'L') ('a'|'A') ('s'|'S') ('s'|'S') ;
 ELSE		: ('e'|'E') ('l'|'L') ('s'|'S') ('e'|'E') ;
